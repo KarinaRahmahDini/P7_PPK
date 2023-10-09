@@ -1,12 +1,28 @@
-/* untuk tablet */
-@media all and (max.width: 1000px){
-  .lesson{
+/* Untuk Tablet */
+@media (max-width: 1000px) {
+  .lesson {
     width: 50%;
-    margin-bottmon: 50px;
+    margin-bottom: 50px;
   }
-  .top-wrapper h1{
-    font-size: 32px;
+}
+
+/* Untuk Smartphone */
+@media (max-width: 670px) {
+  .lesson {
+    width: 100%;
   }
-  .heading h2{
-    font-size:20px;
+  
+  footer {
+    text-align: center;
   }
+  
+  /* Ganti width btn ke 100% */
+  
+  
+  /* Ganti margin-bottom facebook ke 10px */
+  
+  
+  /* Tambahkan CSS untuk top-wrapper */
+  
+  
+}
